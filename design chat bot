@@ -1,0 +1,58 @@
+ Designing a Chatbot Using IBM Cloud Watson Assistant Phase 1: Problem Definition and Design Thinking
+Problem Definition
+The project involves creating a chatbot using IBM Cloud Watson Assistant with the primary goal of developing a virtual guide that assists users on messaging platforms such as Facebook Messenger and Slack. The chatbot should provide valuable information, answer frequently asked questions (FAQs), and offer a friendly and engaging conversational experience. The project encompasses several key aspects:
+1. Persona Design: Define the chatbot's persona, including its name, tone, and style of communication.
+2. User Scenarios: Identify common user scenarios and frequently asked questions that the chatbot should be able to address effectively.
+3. Conversation Flow: Design the conversation flow, outlining how the chatbot responds to various user queries and prompts.
+4. Response Configuration: Configure the chatbot's responses using Watson Assistant's intents, entities, and dialog nodes to ensure accurate and context-aware interactions.
+5. Platform Integration: Integrate the chatbot seamlessly with popular messaging platforms like Facebook Messenger and Slack.
+6. User Experience: Ensure a seamless and user-friendly experience, with clear prompts and informative responses that enhance user satisfaction.
+        
+  Design Thinking: Persona Design
+Chatbot Name: "InfoBot"
+Tone: Friendly, informative, and approachable.
+Style of Communication: Conversational, with a touch of humor where appropriate to make interactions more engaging and enjoyable.
+ 
+ User Scenarios
+● UserScenario1:UserSeekingGeneralInformation - User: "Tell me about your services."
+- InfoBot: Provides an overview of the services offered.
+● UserScenario2:UserLookingforContactInformation
+- User: "What's your contact information?"
+- InfoBot: Shares contact details, including phone number, email, and office
+address.
+● User Scenario 3: User Asking About Business Hours
+- User: "What are your business hours?"
+- InfoBot: Provides the operating hours for each day of the week.
+Conversation Flow: ● Welcome Message
+- InfoBot greets the user and introduces itself.
+● Main Menu
+- User can choose from options like "Services," "Contact Information,"
+"Business Hours," and "FAQs."
+● ServiceInformation
+- If the user selects "Services," InfoBot provides a brief description of
+available services.
+● ContactInformation
+- If the user selects "Contact Information," InfoBot shares contact details
+and offers assistance with directions if needed.
+ 
+ ● BusinessHours
+- If the user selects "Business Hours," InfoBot provides the hours of
+operation.
+● FAQs
+- If the user selects "FAQs," InfoBot lists commonly asked questions and
+answers.
+● FallbackResponse
+- If InfoBot doesn't understand a user query, it politely asks the user to
+rephrase or offers to connect to a human operator.
+● Response Configuration
+- Utilize Watson Assistant's intents, entities, and dialog nodes to recognize user queries accurately and maintain context during the conversation.
+● Platform Integration
+- Integrate InfoBot with Facebook Messenger and Slack using the respective APIs to ensure seamless interactions on these messaging platforms.
+● User Experience
+- Design clear and concise prompts to guide users through the conversation.
+- Ensure that InfoBot's responses are informative and easy to understand.
+- Implement error-handling mechanisms to gracefully handle unexpected user inputs.
+- Continuously improve the chatbot's performance based on user feedback and analytics.
+Conclusion:
+
+ This document outlines the problem definition and initial design thinking for creating InfoBot, a chatbot using IBM Cloud Watson Assistant. The next phases will involve the implementation, testing, and refinement of the chatbot to ensure it meets its goals effectively.
